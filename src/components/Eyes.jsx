@@ -21,14 +21,16 @@ function Eyes() {
       <div className="relative w-full h-full bg-cover bg-center bg-[url(../eyes-bg.jpg)]">
         <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10">
           <div className="w-[15vw] flex items-center justify-center h-[15vw] bg-zinc-100 rounded-full">
-            <div className="w-2/3 h-2/3 relative bg-[#212121]  rounded-full">
+            <div className="w-2/3 h-2/3 relative bg-[#212121] justify-center flex  rounded-full">
+          <h2 className="align-center flex  items-center text-4xl">PLAY</h2>
               <div style={{transform: `translate(-50%,-50%) rotate(${rotate}deg)`,}}className="w-full h-8  absolute  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
                 <div className="w-7 h-7 bg-zinc-100 ml-1 rounded-full"></div>
               </div>
             </div>
           </div>
           <div className="w-[15vw] h-[15vw] flex items-center justify-center bg-zinc-100 rounded-full">
-            <div className="w-2/3 h-2/3 relative bg-[#212121]  rounded-full">
+            <div className="w-2/3 h-2/3 relative bg-[#212121] justify-center flex rounded-full">
+          <h2 className="align-center flex  items-center text-4xl">PLAY</h2>
             <div style={{transform: `translate(-50%,-50%) rotate(${rotate}deg)`,}}className="w-full h-8  absolute  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
                 <div className="w-7 h-7 bg-zinc-100 ml-1 rounded-full"></div>
               </div>
