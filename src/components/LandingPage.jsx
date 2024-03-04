@@ -27,10 +27,10 @@ function LandingPage() {
           <p className="text-[1.1vw]">{item}</p>
         ))}
         <div className="start-btn flex justify-between items-center">
-          <div className="border-[1px] border-zinc-500 px-5 py-1 text-[1.1vw] uppercase rounded-full">
+          <div className="border-[1px] cursor-pointer border-zinc-500 px-5 py-1 text-[1.1vw] uppercase rounded-full">
             Start the Project
           </div>
-          <div className="border-[1px] border-zinc-500 rounded-full ml-1 mt-[1px] w-10 h-10 flex items-center justify-center">
+          <div className="border-[1px] cursor-pointer border-zinc-500 rounded-full ml-1 mt-[1px] w-10 h-10 flex items-center justify-center">
             <GoArrowUpRight />
           </div>
         </div>
