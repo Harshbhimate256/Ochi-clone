@@ -2,7 +2,7 @@ import React from "react";
 
 function Cards() {
   return (
-    <div className="w-full h-screen bg-zinc-100 flex gap-5 px-20 py-10 items-center">
+    <div className="w-full h-screen bg-zinc-100 flex gap-5 px-20 py-10 items-center rounded-8xl">
       <div className="cardContainer w-1/2 h-[55vh]">
         <div className="card relative w-full h-full bg-[#004D43] rounded-2xl flex items-center justify-center">
             <img src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"/>

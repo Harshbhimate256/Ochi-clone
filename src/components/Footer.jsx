@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full h-screen flex'>
+    <div className='w-full h-screen flex rounded-8xl'>
       <div className='w-1/2 h-full flex flex-col justify-between px-14 py-20 '>
         <h1 className='text-[8vw] tracking-tighter leading-none font-bold'>Eye - Opening</h1>
         <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">

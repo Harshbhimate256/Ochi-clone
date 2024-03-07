@@ -18,7 +18,7 @@ function Eyes() {
 
   return (
     <div className="w-full h-screen overflow-hidden">
-      <div data-scroll data-scroll-speed='.4' className="relative w-full h-full bg-cover bg-center bg-[url(../eyes-bg.jpg)]">
+      <div data-scroll data-scroll-speed='-.6' className="relative w-full h-full bg-cover bg-center bg-[url(../eyes-bg.jpg)]">
         <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10">
           <div className="w-[15vw] flex items-center justify-center h-[15vw] bg-zinc-100 rounded-full">
             <div className="w-2/3 h-2/3 relative bg-[#212121] justify-center flex  rounded-full">

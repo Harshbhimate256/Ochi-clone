@@ -21,7 +21,7 @@ function About() {
 
 
   return (
-    <div data-scroll data-scroll-speed='.1' className='w-full py-20 rounded-3xl bg-[#CDEA68] text-black font-["Neue_Montreal"]'>
+    <div data-scroll data-scroll-speed='-.3' className='w-full py-20 rounded-3xl bg-[#CDEA68] text-black font-["Neue_Montreal"]'>
       <div className="text-[3.5vw] w-[90%] px-20  leading-[3.8vw]">
         <h1 >
           Ochi is a strategic partner for fast-growing tech businesses that need
