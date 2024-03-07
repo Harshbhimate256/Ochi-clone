@@ -5,17 +5,18 @@ function About() {
   const btn = useRef(null);
 
   const zoomImg = useRef(null);
-
+  const zoomContainer = useRef(null);
   useEffect(()=>{
     btn.current.addEventListener('mouseenter', ()=>{
       zoomImg.current.classList.add("scale-110")
+      zoomContainer.current.classList.add("h-[64vh]")
+      zoomContainer.current.classList.add("w-[49%]")
     });
 
-
-
     btn.current.addEventListener('mouseleave', ()=>{
+      zoomContainer.current.classList.remove("h-[64vh]")
+      zoomContainer.current.classList.remove("w-[49%]")
       zoomImg.current.classList.remove("scale-110")
-
     });
   })
 
@@ -36,8 +37,8 @@ function About() {
           <div className="w-3 h-3 bg-white rounded-full "></div>
           </button>
         </div>
-        <div  className=" w-1/2 h-[65vh] rounded-2xl bg-[#bfda5d] overflow-hidden">
-          <img ref={zoomImg} className=" w-full h-full rounded-2xl duration-[1.5s] ease-in-out transition-1000" src="../about-img.jpg"/>
+        <div ref={zoomContainer} className="w-[50%] h-[65vh]  rounded-2xl bg-[#bfda5d] overflow-hidden duration-[1.5s] ease-in-out transition-1000">
+          <img ref={zoomImg} className=" w-full h-full rounded-2xl duration-[1.5s] ease-in-out transition-1000" src="../about-img.jpg"/>  
         </div>
       </div>
     </div>
